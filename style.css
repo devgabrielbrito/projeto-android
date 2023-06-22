@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    background-color: #E8E5C2;
+}
+
+header {
+    background-image: linear-gradient(to bottom, #3CD782, #175231);
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.486);
+}
+
+header a {
+    text-decoration: none;
+    color: rgb(197, 248, 191);
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 13px;
+    padding: 10px;
+}
+
+nav {
+    padding-bottom: 10px;
+}
+
+nav a:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(34, 75, 50);
+    border-radius: 8px 8px 0 0;
+    transition-duration: 0.5s;
+}
+
+header h1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    margin-top: 0;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 28px;
+}
+
+header > p {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 40%;
+    color: rgba(255, 255, 255, 0.678);
+}
+
+main {
+    background-color: white;
+    width: 95%;
+    padding: 10px;
+    max-width: 800px;
+    margin: 0;
+    margin: auto;
+    border-radius: 0 0 15px 15px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.438);
+}
+
+main h2 {
+    font-family: 'idroid';
+    color: #1A5C38;
+    font-size: 30px;
+}
+
+main h3 {
+    font-family: 'idroid';
+    color: #1A5C38;
+    background-image: linear-gradient(to right, #bee9d2, white);
+    padding-left: 8px;
+    font-size: 25px;
+}
+
+main strong {
+    color: #0f3b21;
+}
+
+main p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    margin-right: 20px;
+    text-indent: 2em;
+    line-height: 1.6em;
+}
+
+main a {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #50ee9a;
+    padding: 2px 6px;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: #1A5C38;
+}
+
+main a::after {
+    content: '\00A0\1F517';
+}
+
+main p, h2, h3, h4 {
+    margin-left: 20px;
+}
+
+#primeiro-titulo {
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    margin-bottom: 30px;
+    max-width: 80%;
+}
+
+#div-video {
+    background-color: rgb(33, 77, 44);
+    margin: 0 -10px;
+    padding: 20px;
+    padding-bottom: 55%;
+    position: relative;
+}
+
+#div-video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+#final {
+    background-color: #81E0AC;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin-top: 20px;
+}
+
+#final ul {
+    padding: 0;
+    margin: 0;
+    list-style-position: inside;
+    padding-left: 10px;
+}
+
+#final h4 {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    background-color: #175C34;
+    margin: 0;
+    color: white;
+    border-radius: 10px 10px  0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+}
+
+#final > div > p{
+    line-height: 4px;
+    text-indent: 0;
+}
+
+#final div {
+    columns: 2;
+}
+
+#div-final-2 {
+    padding-bottom: 7px;
+}
+
+footer {
+    background-color: #032611;
+    color: white;
+    text-align: center;
+    padding: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
